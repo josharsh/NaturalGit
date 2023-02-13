@@ -11,3 +11,22 @@ npm i -g naturalgit
 
 Then go to your terminal and hit `gitwhat`
 
+
+## Example
+```bash
+$ gitwhat
+```
+```
+$ Tell me what to do using Git 
+```
+
+Download the repository locally
+
+```
+$ Please provide the repository url
+```
+https://github.com/josharsh/yawp
+
+
+
+

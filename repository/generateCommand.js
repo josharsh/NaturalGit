@@ -6,7 +6,6 @@ function generateCommandFromAttributeMap(probableCommand, attributeCollector, fl
     ? attributeCollector.get(commandConfigDetails.attributeKey)
     : "";
   const flagPreset = commandConfigDetails.requiresFlag ? commandConfigDetails.flagPreset : "";
-  console.log("Flag preset is ", flagPreset);
   const requiredFlagValue = commandConfigDetails.requiresFlag
     ? flagsCollector.get(commandConfigDetails.flagKey)
     : "";
@@ -14,7 +13,6 @@ function generateCommandFromAttributeMap(probableCommand, attributeCollector, fl
     ? `${flagPreset} ${requiredFlagValue}`
     : "";
   const commandToExecute = `${commandConfigDetails.commandPreset}${attributeValue}${requiredFlagWithValue}`;
-  console.log("Command to execute ", commandToExecute);
   return commandToExecute;
 }
 

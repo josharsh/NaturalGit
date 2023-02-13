@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const classifier = require("../repository/commandClassifier");
 const readline = require("readline");
 const commandConfig = require("../repository/commandConfig");

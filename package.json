@@ -1,6 +1,6 @@
 {
   "name": "naturalgit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Navigate git using natural language",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josharsh/naturalgit.git"
+  },
+  "bin": {
+    "gitwhat": ".src/index.js"
   },
   "keywords": [
     "chatgpt",

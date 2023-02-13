@@ -12,7 +12,7 @@
     "url": "git+https://github.com/josharsh/naturalgit.git"
   },
   "bin": {
-    "gitwhat": ".src/index.js"
+    "gitwhat": "./src/index.js"
   },
   "keywords": [
     "chatgpt",

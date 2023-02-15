@@ -4,6 +4,8 @@ Use git from your terminal in natural language
 ## Important
 This is an open source project and this repository is actively looking for contributors. 
 
+#### Find this project on npm - https://www.npmjs.com/package/naturalgit
+
 ## How to use
 ```bash
 npm i -g naturalgit
